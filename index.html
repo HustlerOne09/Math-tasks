@@ -9,8 +9,51 @@
 <body>
     <div class="card">
         <h1>Решай</h1>
-        <div id="task"></div> 
+        <div class="task">
+            <p>Задание на сложение</p>
+            <span id="nums_add"></span>
+            <input id="answer_add" type="number">
+            <button id="check_add">Проверить</button>
+            <p id="result_add"></p>
+        </div>
+
+        <div class="task">
+            <p>Задание на вычитание</p>
+            <span id="nums_sub"></span>
+            <input id="answer_sub" type="number">
+            <button id="check_sub">Проверить</button>
+            <p id="result_sub"></p>
+        </div>
+
+        <div class="task">
+            <p>Задание на умножение</p>
+            <span id="nums_mul"></span>
+            <input id="answer_mul" type="number">
+            <button id="check_mul">Проверить</button>
+            <p id="result_mul"></p>
+        </div>
+
+        <div class="task">
+            <p>Задание на деление</p>
+            <span id="nums_div"></span>
+            <input id="answer_div" type="number">
+            <button id="check_div">Проверить</button>
+            <p id="result_div"></p>
+        </div>
+
+        <div class="task">
+            <p>Задание на возведение в степень</p>
+            <span id="nums_pow"></span>
+            <input id="answer_pow" type="number">
+            <button id="check_pow">Проверить</button>
+            <p id="result_pow"></p>
+        </div>
         <button id="again">Ещё раз</button>
     </div>
+    <script src="./script/scriptAdd.js" type="module"></script>
+    <script src="./script/scriptSub.js" type="module"></script>
+    <script src="./script/scriptMul.js" type="module"></script>
+    <script src="./script/scriptDiv.js" type="module"></script>
+    <script src="./script/scriptPow.js" type="module"></script>
 </body>
 </html>
