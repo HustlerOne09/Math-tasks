@@ -13,6 +13,8 @@ function createNewTask() {
 
     numbersElement.textContent = `${firstNumber} ** ${secondNumber} =`;
     answerInput.value = '';
+    resultElement.textContent = '';
+
 }
 
 function checkAnswer() {
